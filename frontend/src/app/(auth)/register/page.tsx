@@ -1,9 +1,10 @@
-import Image from "next/image";
+import { useState, useEffect } from "react";
+import { useRouter } from "next/router";
+import { Formik, Form } from "formik";
+import Link from "next/link";
 
-export default function Home() {
-  return (
-    <>
-      <h1>Hello ! This is Registration page</h1>
-    </>
-  );
-}
+const RegisterPage = () => {
+  return <div className="w-full"></div>;
+};
+
+export default RegisterPage;
