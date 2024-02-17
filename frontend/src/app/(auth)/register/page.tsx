@@ -5,7 +5,7 @@ import Link from "next/link";
 const RegisterPage = () => {
   return (
     <div className="w-full">
-      <form className="mt-3 flex w-full flex-col">
+      {/* <form className="mt-3 flex w-full flex-col">
         <label className="font-semibold mb-2 text-gray-950" htmlFor="email">
           User Name
         </label>
@@ -56,7 +56,7 @@ const RegisterPage = () => {
             </p>
           </button>
         </div>
-      </form>
+      </form> */}
     </div>
   );
 };

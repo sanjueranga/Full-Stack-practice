@@ -2,7 +2,6 @@ import { ReactNode } from "react";
 import doctorVector from "@/assets/SignInPageVector.png";
 import medPlusLogo from "@/assets/MedPlusLogo.png";
 import Image from "next/image";
-import "@/styles/globals.css";
 
 export default function AuthLayout({
   children,
